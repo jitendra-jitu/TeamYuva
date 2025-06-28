@@ -1,11 +1,40 @@
-# Ionic starter with login and registration
+# DDU-GKY Job Portal - Mobile Web Application
 
-Ionic app started template, can be used for both Android & IOS come with three pages login, signup & forget password, easily customisable
+A full-stack mobile web application built using the Ionic Framework for job seekers trained under the Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY) initiative. This app allows rural youth to register, log in, and access job listings relevant to their skill set.
 
-<strong>Ionic Version : 6</strong> <br><br>
-<strong>Angular Version : 14</strong>
+## 👨‍💻 Developed By
+Gudela Jitendra
 
-| Login| Forget Password  | Register|
-| --- | --- | --- |
-| <img style="height: 400px" src="https://user-images.githubusercontent.com/81737295/189891371-d1c86ef1-ac8f-4244-b875-5e6020f092a2.png"> | <img style="height: 400px" src="https://user-images.githubusercontent.com/81737295/189891360-383b0aec-8548-4772-8f56-51fd7476fe13.png"> | <img style="height: 400px" src="https://user-images.githubusercontent.com/81737295/189891345-ae84abea-12e6-4cda-9a70-49a307fbe694.png"> |
+## 🚀 Features
+- 🔐 User Authentication (Login, Signup, Password Reset)
+- 📱 Mobile-first UI with Ionic & Angular
+- 📄 Job Listings for DDU-GKY trained youth
+- 🔎 Search and Filter Jobs
+- 📬 Email & Mobile OTP (to be integrated)
+- 🧾 Admin backend (future scope)
 
+## 🛠️ Tech Stack
+
+### Frontend (Ionic Angular)
+- Ionic Framework
+- Angular
+- Reactive Forms
+- SCSS/CSS
+- Angular Router
+
+### Backend (Node.js + Express)
+- Express.js
+- MongoDB with Mongoose
+- JWT Authentication
+- bcrypt for password hashing
+- dotenv for env configs
+
+## Installation
+1. Clone the repository
+2. Install dependencies for both frontend and backend
+   ```bash
+   cd frontend
+   npm install
+   
+   cd ../backend
+   npm install
