@@ -16,6 +16,7 @@ export class AuthComponentComponent implements OnInit {
     this.formData = this.fb.group({
       name: ['',[Validators.required]],
       email: ['',[Validators.required, Validators.email]],
+      phone: ['',[Validators.required]],
       password: ['',[Validators.required]],
     });
   }
@@ -45,6 +46,7 @@ export class AuthComponentComponent implements OnInit {
       this.isLoading = true
       formData.append('name', this.formData.get('name').value);
       formData.append('email', this.formData.get('email').value);
+      formData.append('phone', this.formData.get('phone').value);
       formData.append('password', this.formData.get('password').value);
       console.log(this.formData)
       this.auth.userRegister(formData).subscribe((data:any)=>{
